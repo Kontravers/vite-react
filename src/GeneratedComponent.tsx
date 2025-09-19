@@ -19,10 +19,10 @@ export default function GeneratedComponent() {
       scale={1}
       rotation={0}
       style={{
-        backgroundColor: "transparent",   // ⬅ change this
+        backgroundColor: "transparent",
         borderRadius: "37px",
-        height: "320px",
-        width: "531px",
+        width: "100%",
+        height: "100%",
       }}
     />
   );
