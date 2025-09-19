@@ -7,7 +7,7 @@ export default function App() {
         display: "grid",
         placeItems: "center",
         minHeight: "100vh",
-        background: "#000",
+        background: "transparent",   // ⬅ change this
       }}
     >
       <GeneratedComponent />
