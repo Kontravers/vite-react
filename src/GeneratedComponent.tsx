@@ -4,7 +4,7 @@ export default function GeneratedComponent() {
   return (
     <PulsingBorder
       colors={["#0dc1fd", "#d915ef", "#ff3f2ecc"]}
-      colorBack="#00000000"   // already transparent
+      colorBack="#00000000"
       speed={1.38}
       roundness={0.25}
       thickness={0.05}
@@ -19,10 +19,11 @@ export default function GeneratedComponent() {
       scale={1}
       rotation={0}
       style={{
+        display: "block",
         backgroundColor: "transparent",
-        borderRadius: "37px",
         width: "100%",
         height: "100%",
+        borderRadius: "37px", // fixed corners
       }}
     />
   );
